@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChicSteps | Vente de Chaussures en Ligne</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <div class="logo">
+            <h1>ChicSteps</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Homme</a></li>
+            <li><a href="#">Femme</a></li>
+            <li><a href="#">Enfant</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+
+    <!-- Bannière principale -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Soldes d'Été !</h2>
+            <p>Jusqu'à -50% sur les nouveautés</p>
+            <a href="#" class="btn">Voir la collection</a>
+        </div>
+    </header>
+
+    <!-- Section Produits -->
+    <section class="products">
+        <h2>Nos Chaussures Tendances</h2>
+        <div class="product-grid">
+            <!-- Produit 1 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Chaussure Sport">
+                <h3>Chaussure Sport</h3>
+                <p>49,99 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <!-- Produit 2 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Baskets Urbaines">
+                <h3>Baskets Urbaines</h3>
+                <p>59,99 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+            <!-- Produit 3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Sandales Été">
+                <h3>Sandales Été</h3>
+                <p>39,99 €</p>
+                <button class="btn">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Aide</h4>
+                <ul>
+                    <li><a href="#">Livraison</a></li>
+                    <li><a href="#">Retours</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>contact@chicsteps.com</p>
+                <p>01 23 45 67 89</p>
+            </div>
+            <div class="footer-section">
+                <h4>Réseaux sociaux</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 ChicSteps. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
